@@ -1,15 +1,30 @@
 ul#unlist li {
     list-style-image: url('asset\ images/icon-list.svg');
+    list-style-position: 23px;
 }
-#btn {
-    display: block;
-}
-div#wrapper {
+div.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: repeat(7, 80px);
+    grid-template-areas: 
+    'row1 col1row1'
+    'row2 col2row2'
+    'row3 col3row3'
+    'row4 col4row4'
+    'row5 col5row5'
+    'row6 col6row6'
+    'row7 col7row7'
+    ;
+    gap: 10px;
     background-color: hsl(0, 0%, 100%);
-    width: 500px;
-    height: 400px;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    text-align: center;
+    height: 650px;
+    border-radius: 10px;
     transform: translate(-50%, -50%);
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
 }
@@ -18,4 +33,24 @@ body {
 }
 a {
     text-decoration: none;
+}
+#input-el {
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 70px;
+}
+#btn {
+    margin-left: 70px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-top: -55px;
+}
+ul#unlist {
+    margin-top: 110px;
+}
+#img-val {
+    grid-row-start: 1;
 }
