@@ -1,0 +1,21 @@
+ul#unlist li {
+    list-style-image: url('asset\ images/icon-list.svg');
+}
+#btn {
+    display: block;
+}
+div#wrapper {
+    background-color: hsl(0, 0%, 100%);
+    width: 500px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+body {
+    background-color: hsl(235, 18%, 26%);
+}
+a {
+    text-decoration: none;
+}
