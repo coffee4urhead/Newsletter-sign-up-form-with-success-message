@@ -7,29 +7,32 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css"/>
   <link rel="icon" type="image/x-icon" href="asset images/favicon-32x32.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 </head>
 <body>
   <div class="wrapper">
-  <h1 style="grid-area: row1; margin-top: 200px;">Stay updated!</h1>
+  <h1>Stay updated!</h1>
 
-  <p style="grid-area: row2; margin-top: 150px;">Join 60,000+ product managers receiving monthly<br/> updates on:</p>
+  <p class="join">Join 60,000+ product managers receiving monthly<br/> updates on:</p>
 
-  <ul id="unlist" style="grid-area: row3;">
+  <ul id="unlist">
     <li>Product discovery and building what matters</li>
     <li>Measuring to ensure updates are a success</li>
     <li>And much more!</li>
   </ul>
 
-  <p style="grid-area: row4; margin-top: 70px;">Enter your email here:</p>
-  <input style="grid-area: row5;" id="input-el" type="email" name="email-valid"/>
-  <button id="btn" style="grid-area: row6;">Subscribe to monthly newsletter</button>
-  <div class="attribution" style="grid-area: row7; margin-top: -90px;">
+  <p class="em">Enter your email here:</p>
+  <input id="input-el" type="email" name="email-valid"/>
+  <button id="btn">Subscribe to monthly newsletter</button>
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br/>
     Coded by <a href="https://github.com/coffee4urhead">Mihail Elenkov Mihaylov</a>.
 
-    <img id="img-val" href="asset images/illustration-sign-up-desktop.svg" alt="style image for the validation form"/>
   </div>
+  <img id="img-val" src="asset images/illustration-sign-up-desktop.svg" alt="style image for the validation form"/>
   </div>
 </body>
 </html>
