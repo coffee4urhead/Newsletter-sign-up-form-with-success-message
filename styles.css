@@ -4,10 +4,14 @@ ul#unlist li {
 }
 ul#unlist {
     grid-area: row3;
+    margin-top: 60px;
 }
 body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+}
+.header-info {
+    margin-bottom: -50px;
 }
 div.wrapper {
     display: grid;
@@ -41,6 +45,9 @@ body {
 a {
     text-decoration: none;
 }
+p.em {
+    margin-top: 60px;
+}
 #input-el {
     border-radius: 10px;
     width: 300px;
@@ -73,6 +80,7 @@ a {
 }
 p.join {
     grid-area: row2;
+    margin-top: 50px;
 }
 div.attribution {
     grid-area: row7;
