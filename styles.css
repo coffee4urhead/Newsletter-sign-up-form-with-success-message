@@ -62,7 +62,7 @@ p.em {
     background-color: rgb(215, 129, 95);
 }
 #input-el:focus {
-    background-color: rgb(178, 135, 90);
+    background-color: rgb(255, 187, 169);
 }
 #btn {
     transform: translateX(23%);
@@ -95,4 +95,17 @@ p.em {
     grid-area: col5row5;
     margin-bottom: 60px;
     margin-left: 40px;
+}
+#form-valid {
+    grid-area: row5;
+    transform: translateX(-23%);
+    margin-top: 80px;
+    gap: 10px;
+}
+.form-cont-wrap {
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
 }

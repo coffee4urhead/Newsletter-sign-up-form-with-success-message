@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 </head>
 
@@ -28,8 +29,12 @@
       </ul>
 
       <p class="em">Enter your email here:</p>
-      <input id="input-el" type="email" name="email-valid" placeholder="email@company.com" />
-      <button id="btn">Subscribe to monthly newsletter</button>
+      <form id="form-valid" action="confirmationPage.html">
+        <div class="form-cont-wrap">
+        <input id="input-el" type="email" name="email-valid" placeholder="email@company.com" required/>
+        <button id="btn">Subscribe to monthly newsletter</button>
+        </div>
+      </form>
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br />
         Coded by <a href="https://github.com/coffee4urhead">Mihail Elenkov Mihaylov</a>.
