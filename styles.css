@@ -180,20 +180,12 @@ p.em {
         height: 4rem;
     }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 321px) {
     body {
         font-size: 18px;
+        background-color: aliceblue;
+        display: flex;
+        align-items: first baseline;
         text-align: center;
-    }
-    div.wrapper {
-        margin-left: 23px;
-    }
-    #input-el {
-        width: 25rem;
-        height: 4rem;
-    }
-    #btn {
-        width: 25rem;
-        height: 4rem;
     }
 }
