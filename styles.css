@@ -91,13 +91,15 @@ p.em {
 }
 p.join {
     grid-area: row2;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 div.attribution {
     grid-area: row7;
 }
 p.em {
     grid-area: row4;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
 }
 #img-val {
     grid-area: col5row5;
@@ -108,6 +110,7 @@ p.em {
     grid-area: row5;
     transform: translateX(-23%);
     margin-top: 5rem;
+    margin-bottom: 2rem;
     gap: 2em;
 }
 .form-cont-wrap {
@@ -124,7 +127,7 @@ p.em {
         justify-content: center;
         flex-direction: column-reverse;
         gap: 0;
-        height: 70rem;
+        height: 74rem;
         width: 40rem;
         position: absolute;
     }
@@ -132,7 +135,7 @@ p.em {
         display: block;
         width: 40rem;
         margin-left: 0;
-        height: 15rem;
+        height: 21rem;
         margin-top: 1.4rem;
         border-radius: 10px;
         object-fit: cover;
@@ -142,9 +145,55 @@ p.em {
         bottom: 5rem;
     }
     body {
-        font-size: 20px;
+        font-size: 25px;
     }
     #form-valid {
         margin-bottom: 3rem;
+    }
+    #btn {
+        width: 35rem;
+        height: 4rem;
+        font-size: large;
+    }
+    #input-el {
+        width: 35rem;
+        height: 4rem;
+    }
+    p.join {
+        margin-top: 6rem;
+    }
+}
+@media screen and (max-width: 426px) {
+    body {
+        font-size: 18px;
+        text-align: center;
+    }
+    div.wrapper {
+        margin-left: 23px;
+    }
+    #input-el {
+        width: 25rem;
+        height: 4rem;
+    }
+    #btn {
+        width: 25rem;
+        height: 4rem;
+    }
+}
+@media screen and (max-width: 376px) {
+    body {
+        font-size: 18px;
+        text-align: center;
+    }
+    div.wrapper {
+        margin-left: 23px;
+    }
+    #input-el {
+        width: 25rem;
+        height: 4rem;
+    }
+    #btn {
+        width: 25rem;
+        height: 4rem;
     }
 }
